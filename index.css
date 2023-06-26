@@ -1,0 +1,116 @@
+* {
+  line-height: 1.5;
+  background-color:#777;
+  margin-left:20px
+}
+
+div.container {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-link {
+  border: 2px solid;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  border-radius: 4px;
+}
+
+.nav-link:nth-child(1) {
+  border-color: #ff0000;
+}
+
+.nav-link:nth-child(2) {
+  border-color: #00ff00;
+}
+
+.nav-link:nth-child(3) {
+  border-color: #0000ff;
+}
+
+.button {
+  border: 2px solid;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  border-radius: 4px;
+}
+
+.custom-button {
+  border-color: #ff0000;
+}
+
+div.container a.nav-link.link-secondary.p-0 {
+  text-decoration: none;
+  color: #000;
+  margin-top:20px;
+}
+
+ul.nav.justify-content-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-right:80px; 
+  margin-top:0px; 
+}
+
+ul.nav.justify-content-end li {
+  margin-left: 10px; /* Adjust the spacing between list items */
+}
+
+ul.nav.justify-content-end li:first-child {
+  margin-left: 0; /* Remove margin for the first list item */
+}
+
+ul.nav.justify-content-end li a {
+  text-decoration: none;
+  color: #000; /* Adjust the color as needed */
+}
+
+div.container-fluid {
+  display: flex;
+  justify-content: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-right:80px;
+  margin-top:0px;
+}
+
+.row.align-items-center {
+  display: flex;
+  align-items: center;
+}
+
+.col-lg-5 {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  position: reverse;
+
+}
+
+.col-lg-7 {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  position:reverse;
+}
+
+.d-flex.justify-content-center {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pt-5 {
+  padding-top: 5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
